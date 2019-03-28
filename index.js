@@ -30,6 +30,13 @@ app.get('/', (req, res) => {
   });
 });
 
+app.get('/about', (req, res) => {
+  res.render('about', {
+    title: 'About us'
+  });
+});
+
+
 io.sockets.on('connection', (socket) => {
   console.log('a user connected');
 
