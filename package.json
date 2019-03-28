@@ -1,0 +1,26 @@
+{
+  "name": "barba",
+  "version": "1.0.0",
+  "description": "node barba test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cremetv/nodeBarba.git"
+  },
+  "author": "Marcel Hauser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cremetv/nodeBarba/issues"
+  },
+  "homepage": "https://github.com/cremetv/nodeBarba#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mysql": "^2.16.0",
+    "node-fetch": "^2.3.0",
+    "socket.io": "^2.2.0"
+  }
+}
